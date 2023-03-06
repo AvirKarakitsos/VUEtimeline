@@ -1,0 +1,561 @@
+{
+	"table":[
+		{
+			"id":1,
+			"nom":"Pythagore",
+			"prenom":"",
+			"date":-570,
+			"pays":"Grèce",
+			"couleur":"#158FAD",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":2,
+			"nom":"Euclide",
+			"prenom":"",
+			"date":-325,
+			"pays":"Grèce",
+			"couleur":"#158FAD",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":3,
+			"nom":"Archimède",
+			"prenom":"",
+			"date":-287,
+			"pays":"Grèce",
+			"couleur":"#158FAD",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":4,
+			"nom":"Apollonios",
+			"prenom":"",
+			"date":-262,
+			"pays":"Grèce",
+			"couleur":"#158FAD",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":5,
+			"nom":"Diophante",
+			"prenom":"",
+			"date":200,
+			"pays":"Grèce",
+			"couleur":"#158FAD",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":6,
+			"nom":"Brahmagupta",
+			"prenom":"",
+			"date":590,
+			"pays":"Inde",
+			"couleur":"#F0C64B",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":7,
+			"nom":"Al-Khwarizmi",
+			"prenom":"",
+			"date":780,
+			"pays":"Perse",
+			"couleur":"red",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":8,
+			"nom":"Fibonacci",
+			"prenom":"",
+			"date":1170,
+			"pays":"Italie",
+			"couleur":"#4C9A2A",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":9,
+			"nom":"Pacioli",
+			"prenom":"",
+			"date":1445,
+			"pays":"Italie",
+			"couleur":"#4C9A2A",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":10,
+			"nom":"",
+			"prenom":"",
+			"date":1170,
+			"pays":"",
+			"couleur":""
+		},
+		{
+			"id":11,
+			"nom":"Cardano",
+			"prenom":"Gerolamo",
+			"date":1501,
+			"pays":"Italie",
+			"couleur":"#4C9A2A",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":12,
+			"nom":"Napier",
+			"prenom":"John",
+			"date":1550,
+			"pays":"UK",
+			"couleur":"#2c3e50",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":13,
+			"nom":"Kepler",
+			"prenom":"Johannes",
+			"date":1571,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":14,
+			"nom":"Descartes",
+			"prenom":"René",
+			"date":1596,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":15,
+			"nom":"Fermat",
+			"prenom":"Pierre",
+			"date":1607,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":16,
+			"nom":"Pascal",
+			"prenom":"Blaise",
+			"date":1623,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":17,
+			"nom":"Huygens",
+			"prenom":"Christiaan",
+			"date":1629,
+			"pays":"Pays-Bas",
+			"couleur":"#FF9800",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":18,
+			"nom":"Newton",
+			"prenom":"Isaac",
+			"date":1643,
+			"pays":"UK",
+			"couleur":"#2c3e50",
+			"content" : "Il est le découvreur du calcul différentiel et intégral, le plus puissant outil jamais inventé pour étudier la nature. Cette découverte permit de libérer les mathématiques de la géométrie classique et consacra l’avènement de la science moderne. Le scientifique anglais est l’un des principaux représentants de cette révolution dont le point culminant fut la publication, en 1687, des Principes mathématiques de la philosophie naturelle, ouvrage dans lequel il postula un cosmos régi par les trois lois du mouvement et par l’attraction terrestre universelle : la gravitation."
+		},
+		{
+			"id":19,
+			"nom":"Leibniz",
+			"prenom":"Gottfried Wilhelm", 
+			"date":1646,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Un des plus grands génies des mathématiques, le philosophe et scientifique allemand vécut entre le XVIIe et le XVIIIe siècle. En plus de la numération binaire et de l’invention de la première calculatrice, il est, à l’instar de Newton, le créateur du plus puissant des outils permettant de décrire mathématiquement le monde physique : le calcul infinitésimal."
+		},
+		{
+			"id":20,
+			"nom":"Bernoulli",
+			"prenom":"Jacques",
+			"date":1655,
+			"pays":"Suisse",
+			"couleur":"#FF8886",
+			"content" : "Il fut le premier d’une lignée de mathématiciens suisses des XVIIe et XVIIIe siècles qui sont à l’origine de découvertes telles que le calcul des variations, l’hydrodynamique et de recherches pionnières sur la théorie des nombres. L’aîné des Bernoulli énonça la loi des grands nombres, première contribution ­notable au calcul des probabilités."
+		},
+		{
+			"id":21,
+			"nom":"Euler",
+			"prenom":"Leonhard",
+			"date":1707,
+			"pays":"Suisse",
+			"couleur":"#FF8886",
+			"content" : "Grand mathématicien suisse du ­siècle des Lumières dont le nom est indissociable de l’analyse ­mathématique. Il est également l’auteur de contributions fondamentales à la géométrie et à la théorie des nombres et a créé, avec la théorie des graphes, un nouveau champ de recherches. Il a enfin ­publié sur l’hydrodynamique, la mécanique ou l’optique."
+		},
+		{
+			"id":22,
+			"nom":"Lagrange",
+			"prenom":"Joseph-Louis",
+			"date":1736,
+			"pays":"Italie",
+			"couleur":"#4C9A2A",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":23,
+			"nom":"Monge",
+			"prenom":"Gaspard",
+			"date":1746,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":24,
+			"nom":"Laplace",
+			"prenom":"Pierre-Simon",
+			"date":1749,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Il incarna le point culminant de l’esprit scientifique des Lumières. Dans le domaine de la physique ­mathématique, il compléta le programme de Newton, expliquant le fonctionnement du cosmos. Avec sa théorie des probabilités, il éleva l’étude du hasard au rang de discipline scientifique et mit enfin au point le système métrique décimal."
+		},
+		{
+			"id":25,
+			"nom":"Legendre",
+			"prenom":"Adrien-Marie",
+			"date":1752,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":26,
+			"nom":"Fourier",
+			"prenom":"Joseph",
+			"date":1768,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Il inaugura une nouvelle ère de la physique en s’attaquant au problème de la propagation de la chaleur dans les corps solides. Fils de la Révolution française, ses travaux ont joué un rôle clé dans l’apparition de branches importantes des mathématiques pures et appliquées ; il est vu comme l’un des architectes de la physique moderne et son héritage a exercé une influence notable dans des domaines aussi variés que les équations aux dérivées partielles, l’analyse complexe, la théorie des groupes, la théorie analytique des nombres et la physique mathématique."
+		},
+		{
+			"id":27,
+			"nom":"Germain",
+			"prenom":"Sophie",
+			"date":1776,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":28,
+			"nom":"Gauss",
+			"prenom":"Carl Friedrich",
+			"date":1777,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Il fut baptisé « le prince des mathématiciens », un titre qui jamais ne lui fut disputé depuis lors. Parmi les avancées qu’on lui doit, on retiendra particulièrement celles relatives à la théorie des nombres. La construction à la règle et au compas d’un polygone régulier à 17 côtés qui occupait les mathématiciens depuis la Grèce classique constitue par ailleurs l’une de ses premières grandes découvertes."
+		},
+		{
+			"id":29,
+			"nom":"Cauchy",
+			"prenom":"Augustin-Louis",
+			"date":1789,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":30,
+			"nom":"Lobachevsky",
+			"prenom":"Nikolai",
+			"date":1792,
+			"pays":"Russie",
+			"couleur":"#808080",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":31,
+			"nom":"Abel",
+			"prenom":"Niels Henrik",
+			"date":1802,
+			"pays":"Norvège",
+			"couleur":"#D30000",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":32,
+			"nom":"Dirichlet",
+			"prenom":"Lejeune",
+			"date":1805,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":33,
+			"nom":"Hamilton",
+			"prenom":"William Rowan",
+			"date":1805,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":34,
+			"nom":"Galois",
+			"prenom":"Evarist",
+			"date":1811,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Le mathématicien français vécut à peine vingt et un ans et contribua pourtant à transformer les mathématiques ainsi que la ­société de son époque. Il démontra notamment qu’il n’y avait pas une solution générale par radicaux pour les équations de degré ­supérieur à quatre, et ­établit les conditions pour qu’une équation soit résoluble."
+		},
+		{
+			"id":35,
+			"nom":"Weierstrass",
+			"prenom":"Karl",
+			"date":1815,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":36,
+			"nom":"Boole",
+			"prenom":"George",
+			"date":1815,
+			"pays":"UK",
+			"couleur":"#2c3e50",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":37,
+			"nom":"Cayley",
+			"prenom":"Arthur",
+			"date":1821,
+			"pays":"UK",
+			"couleur":"#2c3e50",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":38,
+			"nom":"Riemann",
+			"prenom":"Bernhard",
+			"date":1826,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Il est l’une des figures savantes ­emblématiques du milieu du XIXe siècle. En dépit de la brièveté de sa carrière, le mathématicien ­allemand a marqué la géométrie différentielle et a laissé aux mathématiciens l’hypothèse qui porte son nom et qui constitue la plus ­importante conjecture non résolue."
+		},
+		{
+			"id":39,
+			"nom":"Dedekind",
+			"prenom":"Richard",
+			"date":1831,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":40,
+			"nom":"Maxwell",
+			"prenom":"James Clerk",
+			"date":1831,
+			"pays":"UK",
+			"couleur":"#2c3e50",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":41,
+			"nom":"Lie",
+			"prenom":"Sophus",
+			"date":1842,
+			"pays":"Norvège",
+			"couleur":"#D30000",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":42,
+			"nom":"Cantor",
+			"prenom":"Georg",
+			"date":1845,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Avec Richard Dedekind, il donna la définition d’un ensemble infini. Tablant sur la multiplicité des infinis, l’Allemand Georg Cantor reformula les bases des mathématiques. Les mathématiciens et logiciens d’aujourd’hui utilisent encore ce nouveau monde qu’Henri ­Poincaré comparait à un paradis."
+		},
+		{
+			"id":43,
+			"nom":"Frege",
+			"prenom":"Gottlob",
+			"date":1848,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":44,
+			"nom":"Klein",
+			"prenom":"Felix",
+			"date":1849,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":45,
+			"nom":"Kovalevskaya",
+			"prenom":"Sofya",
+			"date":1850,
+			"pays":"Russe",
+			"couleur":"#808080",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":46,
+			"nom":"Poincaré",
+			"prenom":"Henri",
+			"date":1854,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Il marqua durablement la plupart des branches des mathématiques et acquit une renommée scientifique considérable en France comme dans le reste du monde. Son œuvre contribua de manière fondamentale au développement de la théorie de la relativité restreinte et, surtout, de la topologie."
+		},
+		{
+			"id":47,
+			"nom":"Peano",
+			"prenom":"Giuseppe",
+			"date":1858,
+			"pays":"Italie",
+			"couleur":"#4C9A2A",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":48,
+			"nom":"Hilbert",
+			"prenom":"David",
+			"date":1862,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":49,
+			"nom":"Brouwer",
+			"prenom":"Luitzen Egbertus Ja",
+			"date":1881,
+			"pays":"Pays-bas",
+			"couleur":"#FF9800",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":50,
+			"nom":"Noehter",
+			"prenom":"Emmy",
+			"date":1882,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":51,
+			"nom":"Weyl",
+			"prenom":"Hermann",
+			"date":1885,
+			"pays":"Allemagne",
+			"couleur":"#7C0A02",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":52,
+			"nom":"Ramanujan",
+			"prenom":"Srinivasa",
+			"date":1887,
+			"pays":"Inde",
+			"couleur":"#F0C64B",
+			"content" : "Il est le mathématicien indien le plus célèbre, notamment pour ses géniales contributions à la théorie des nombres et à la théorie combinatoire. Il est à l’origine d’un vaste atlas de nouveaux résultats dans l’étude des nombres premiers, les partitions des entiers ou les fractions continues."
+		},
+		{
+			"id":53,
+			"nom":"Fischer",
+			"prenom":"Ronald",
+			"date":1890,
+			"pays":"UK",
+			"couleur":"#2c3e50",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":54,
+			"nom":"",
+			"prenom":"",
+			"date":1887,
+			"pays":"",
+			"couleur":"#2c3e50",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":55,
+			"nom":"Kolmogorov",
+			"prenom":"Andrey",
+			"date":1903,
+			"pays":"Russie",
+			"couleur":"#808080",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":56,
+			"nom":"von Neumann",
+			"prenom":"John",
+			"date":1903,
+			"pays":"Hongrie",
+			"couleur":"#006400",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":57,
+			"nom":"Weil",
+			"prenom":"André",
+			"date":1906,
+			"pays":"France",
+			"couleur":"#1260CC",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":58,
+			"nom":"Gödel",
+			"prenom":"Kurt",
+			"date":1906,
+			"pays":"Autriche",
+			"couleur":"#A000C8",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":59,
+			"nom":"Turing",
+			"prenom":"Alan",
+			"date":1912,
+			"pays":"UK",
+			"couleur":"#2c3e50",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":60,
+			"nom":"Erdös",
+			"prenom":"Paul",
+			"date":1913,
+			"pays":"Hongrie",
+			"couleur":"#006400",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":61,
+			"nom":"Mandelbrot",
+			"prenom":"Benoit",
+			"date":1924,
+			"pays":"Pologne",
+			"couleur":"#CA5CDD",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"id":62,
+			"nom":"Nash",
+			"prenom":"John Forbes",
+			"date":1928,
+			"pays":"USA",
+			"couleur":"blue",
+			"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		}
+	]
+}

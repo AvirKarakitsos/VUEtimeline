@@ -1,0 +1,234 @@
+section{
+    height: 50px;
+    width:1100px;
+    display: flex;
+}
+.impaire{
+    padding: 5px;
+    position: relative;
+    top: -20px;
+    text-align: center; 
+    border-radius: 8px 8px 0 0;
+}
+.paire{
+    padding: 5px;
+    position: relative;
+    top: -75px;
+    text-align: center; 
+    border-radius: 0 0 8px 8px;
+}
+.libelle{ /*libelles normaux*/
+    width: 98px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+/*libelles speciaux*/
+.autre{
+    width: 50px;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+.hover{
+    width: 95px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+
+h5{
+    color: white;
+}
+
+/*slide de -500 à 1500*/
+
+#titre1{
+    left: 10px;
+}
+#titre2{
+    left: 0px;
+}
+#titre3{
+    left: -45px;
+}
+#titre4{
+    left: -90px;
+}
+#titre5{
+    left: 0px;
+}
+#titre6{
+    left: 90px;
+}
+#titre7{
+    left: 90px;
+}
+#titre8{
+    left: 175px;
+}
+#titre9{
+    left: 205px;
+}
+
+/*Slide 1*/
+#titre11{
+    left: 10px;
+}
+
+ #titre13{
+    left: 525px;
+}
+#titre12{
+    left: 405px;
+}
+#titre14{
+    left: 680px;
+}
+
+/*Slide 2*/
+#titre15{
+    left: 70px;
+}
+#titre17{
+    left: 100px;
+}
+#titre19{
+    left: 80px;
+}
+#titre16{
+    left: 135px;
+}
+#titre18{
+    left: 145px;
+}
+#titre20{
+    left: 75px;
+}
+
+/*Slide 3*/
+#titre21{
+    left: 74px;
+}
+#titre23{
+    left: 250px;
+}
+#titre25{
+    left: 165px;
+}
+#titre27{
+    left: 195px;
+}
+#titre29{
+    left: 135px;
+}
+#titre22{
+    left: 265px;
+}
+#titre24{
+    left: 205px;
+}
+#titre26{
+    left: 200px;
+}
+#titre28{
+    left: 120px;
+}
+#titre30{
+    left: 65px;
+}
+
+/*Slide 4*/
+#titre31{
+    left: 35px;
+}
+#titre32{
+    left: 25px;
+}
+#titre33{
+    left: -8px;
+}
+#titre34{
+    left: -15px;
+}
+#titre35{
+    left: -22px;
+}
+#titre36{
+    left: -60px;
+}
+#titre37{
+    left: -65px;
+}
+#titre38{
+    left: -65px;
+}
+#titre39{
+    left: -60px;
+}
+#titre40{
+    left: -105px;
+}
+#titre41{
+    left: -60px;
+}
+#titre42{
+    left: -75px;
+}
+#titre43{
+    left: -100px;
+}
+#titre44{
+    left: -120px;
+}
+#titre45{
+    left: -147px;
+}
+#titre46{
+    left: -165px;
+}
+#titre47{
+    left: -185px;
+}
+#titre48{
+    left: -200px;
+}
+#titre49{
+    left: -75px;
+}
+#titre50{
+    left: -110px;
+}
+#titre51{
+    left: -120px;
+}
+#titre52{
+    left: -150px;
+}
+#titre53{
+    left: -165px;
+}
+
+/*slide 5*/
+#titre55{
+    left: 50px;
+}
+#titre56{
+    left: 0px;
+}
+#titre57{
+    left: 3px;
+}
+#titre58{
+    left: -45px;
+}
+#titre59{
+    left: -40px;
+}
+#titre60{
+    left: -135px;
+}
+#titre61{
+    left: -130px;
+}
+#titre62{
+    left: -200px;
+}
