@@ -1,7 +1,7 @@
 <template>
     <section v-for="ligne in afficherId" :key="ligne.id">
         <div>
-            <p align="center"><b>{{ligne.prenom+' '+ligne.nom}}</b></p><br/>    
+            <p align="center"><strong>{{ligne.prenom+' '+ligne.nom}}</strong></p><br/>    
             <p>Année de naissance : <b>{{ligne.date}}</b></p>
             <p>Pays de naissance : <b>{{ligne.pays}}</b></p><br/>
             <router-link :to="{name:'About', params:{nom: ligne.nom}}">En savoir plus</router-link>
