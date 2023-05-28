@@ -14,11 +14,19 @@
 			</div>
 		</section>
 
-		<ul class="legend">
-			<li class="country" v-for="ligne in tableFilter" :key="ligne.id">
-				<div class="bg-color" :style="'background-color:'+ligne.couleur"></div><p>{{ " "+ligne.pays }}</p>
-			</li>
-		</ul>
+		<section class="legend">
+			<ul>
+				<li class="country" v-for="ligne in tableFilter.slice(0,Math.trunc(length/2))" :key="ligne.id">
+					<div class="bg-color" :style="'background-color:'+ligne.couleur"></div><p>{{ " "+ligne.pays }}</p>
+				</li>
+			</ul>
+			<ul>
+				<li class="country" v-for="ligne in tableFilter.slice(Math.ceil(length/2))" :key="ligne.id">
+					<div class="bg-color" :style="'background-color:'+ligne.couleur"></div><p>{{ " "+ligne.pays }}</p>
+				</li>
+			</ul>
+		</section>
+		
 
 		<p class="description">La collection de livres <strong>Les génies des mathématiques</strong> a été publiée entre 2018 et 2019 par « Le Monde », en collaboration avec « L’Obs ». Elle propose la biographie de soixante mathématiciens (dont trois femmes) de l'antiquité jusqu'au XXème siecle. Une façon différnte de raconter les mathématiques où le contexte historique permet de mieux comprendre les travaux de recherches du mathématicien. Un format agréable dont les livres font environ 150 pages rend la lecture accessible à nimporte quel amateur d'histoire et de mathématiques.<br/><br/>La frise chronologique représente les soixante mathématiciens abordés dans la collection au cours du temps. Vous pouvez cliquer sur un  nom pour voir sa fiche récapitulative. <span class="italique">En savoir plus</span> vous amène sur une page avec la couverture du livre et son résumé.</p>
 	</main>
@@ -37,8 +45,9 @@ export default {
 	},
 	data(){
 		return{
-		cpt:0,
-		tableFilter:[]
+			cpt:0,
+			tableFilter:[],
+			length:0
 		}
 	},
 	methods:{
@@ -71,14 +80,17 @@ export default {
 		},
 	},
 	async created(){
+		const table = await this.fetchTable()
 		let tableColor = []
-		const tab= await this.fetchTable()
-		tab.map(val => {
+
+		table.map(val => {
 			if((!tableColor.includes(val.couleur)) && (val.couleur !== "")){
 				tableColor.push(val.couleur)
 				this.tableFilter.push(val)
 			}
 		})
+		this.length = tableColor.length
+		console.log(this.length)
 	}
 }
 </script>
@@ -116,13 +128,17 @@ export default {
 	}
 	.legend{
 		width: 300px;
-		/* padding: .2rem .5rem; */
 		align-self: flex-start;
-		-webkit-column-count: 2;  /* Chrome/Opera, Safari */
-		-moz-column-count: 2; /* Mozilla Firefox */
-		column-count: 2;
+		display: flex;
+		/* -webkit-column-count: 2;  Chrome/Opera, Safari
+		-moz-column-count: 2; Mozilla Firefox
+		column-count: 2; */
 		list-style-type: none;
 		border: 1px solid black;
+	}
+	.legend ul {
+		width: 50%;
+		padding: 0 20px;
 	}
 	.country {
 		height: 20px;

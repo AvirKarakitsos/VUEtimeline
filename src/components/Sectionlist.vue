@@ -27,7 +27,7 @@
         </div>
     </section>
     <section class="timeline" v-else-if="cpt==0">
-        <div v-for="ligne in table.filter(val => val.id <= 10)" :key="ligne.id">
+        <div v-for="ligne in table.filter(val => val.id < 10)" :key="ligne.id">
             
             <div @click="afficher(ligne.id)" 
             :class="[ligne.id%2==0 ? 'paire' : 'impaire', 'libelle']"
