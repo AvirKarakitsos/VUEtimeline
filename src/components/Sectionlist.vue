@@ -39,7 +39,7 @@
             </div>
         </div>
     </section>
-    <div v-show="hidden">
+    <div class="articles" v-show="hidden">
         <Description :afficherId="afficherId" @changer="change"/>
     </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <section v-for="ligne in afficherId" :key="ligne.id">
+    <article v-for="ligne in afficherId" :key="ligne.id">
         <div>
             <p align="center"><strong>{{ligne.prenom+' '+ligne.nom}}</strong></p><br/>    
             <p>Année de naissance : <b>{{ligne.date}}</b></p>
@@ -9,7 +9,7 @@
         <div class="close">
             <i @click="$emit('changer',cacher)" class="fas fa-times-circle"></i>
         </div>
-    </section>
+    </article>
 </template>
 
 <script>
@@ -25,10 +25,8 @@ export default {
 }
 </script>
 <style scoped>
-    section{
-        height: 150px;
-        width: 300px;
-        margin: 3rem auto 0 auto;
+    article{
+        /* margin: 3rem auto 0 auto; */
         padding: 1.3rem;
         display: flex;
         justify-content: space-between;

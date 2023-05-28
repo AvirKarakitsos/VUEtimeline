@@ -15,8 +15,8 @@
 		</section>
 
 		<ul class="legend">
-			<li v-for="ligne in tableFilter" :key="ligne.id">
-				<div class="bg-color" :style="'background-color:'+ligne.couleur"></div>{{ " "+ligne.pays }}
+			<li class="country" v-for="ligne in tableFilter" :key="ligne.id">
+				<div class="bg-color" :style="'background-color:'+ligne.couleur"></div><p>{{ " "+ligne.pays }}</p>
 			</li>
 		</ul>
 
@@ -71,11 +71,11 @@ export default {
 		},
 	},
 	async created(){
-		let tab2 =[]
+		let tableColor = []
 		const tab= await this.fetchTable()
 		tab.map(val => {
-			if((!tab2.includes(val.couleur)) && (val.couleur !== "")){
-				tab2.push(val.couleur)
+			if((!tableColor.includes(val.couleur)) && (val.couleur !== "")){
+				tableColor.push(val.couleur)
 				this.tableFilter.push(val)
 			}
 		})
@@ -116,7 +116,7 @@ export default {
 	}
 	.legend{
 		width: 300px;
-		padding: .5rem 1rem;
+		/* padding: .2rem .5rem; */
 		align-self: flex-start;
 		-webkit-column-count: 2;  /* Chrome/Opera, Safari */
 		-moz-column-count: 2; /* Mozilla Firefox */
@@ -124,11 +124,18 @@ export default {
 		list-style-type: none;
 		border: 1px solid black;
 	}
+	.country {
+		height: 20px;
+		margin: 5px 0 5px 0;
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
 	.bg-color{
 		height: 20px;
 		width: 25px;
-		margin: 4px 4px 0 0;
-		display: inline-block;
+		
+		/* display: inline-block; */
 	}
 
 	.description{
