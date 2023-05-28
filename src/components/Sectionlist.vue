@@ -77,47 +77,12 @@ export default{
             selected = document.getElementById(`titre${input}`)
             selected.classList.add('hover')
             selected.style.zIndex = 10
-            if(input <= 53){
-                this.table
-                    .filter(val => (val.id>input) && (val.id<=53))
-                    .map( val =>{
-                        let selectedAll = null
-                        selectedAll = document.getElementById(`titre${val.id}`)
-                        selectedAll.style.transform = "translateX(-45px)"
-                    })
-            }else{
-                this.table
-                    .filter(val => val.id>input)
-                    .map( val =>{
-                        let selectedAll = null
-                        selectedAll = document.getElementById(`titre${val.id}`)
-                        selectedAll.style.transform = "translateX(-45px)"
-                    })
-            }
         },
         mouseleave(input){
             let selected = null
             selected = document.getElementById(`titre${input}`)
             selected.classList.remove('hover')
             selected.style.zIndex = 0
-
-            if(input <= 53){
-                this.table
-                    .filter(val => (val.id>input) && (val.id<=53))
-                    .map( val =>{
-                        let selectedAll = null
-                        selectedAll = document.getElementById(`titre${val.id}`)
-                        selectedAll.style.transform = "translateX(0px)"
-                    })
-            }else{
-                this.table
-                    .filter(val => val.id>input)
-                    .map( val =>{
-                        let selectedAll = null
-                        selectedAll = document.getElementById(`titre${val.id}`)  
-                        selectedAll.style.transform = "translateX(0px)"
-                    })
-            }            
         },
     }
 }

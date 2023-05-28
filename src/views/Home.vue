@@ -109,9 +109,10 @@ export default {
 		cursor: pointer;
 	}
 	.menu {
+		position: relative;
 		display: flex;
 		flex-direction: column;
-		justify-content: end;
+		justify-content: center;
 	}
 	.legend{
 		width: 300px;
@@ -132,12 +133,16 @@ export default {
 
 	.description{
 		width: 550px;
-		/* margin: 0 auto; */
-		/* padding-top: 0.5rem; */
 		text-align: justify;
 		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 	}
 	.italique{
 		font-style: italic;
 	}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		align-self: flex-start;
+	}
+}
 </style>
