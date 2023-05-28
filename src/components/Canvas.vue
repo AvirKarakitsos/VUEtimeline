@@ -129,6 +129,5 @@ export default {
     canvas{
         width:1100px; 
         height:50px;
-        margin: 0 .7rem;
     }
 </style>

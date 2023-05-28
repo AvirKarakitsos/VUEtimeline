@@ -1,20 +1,27 @@
 <template>
     <main>
-		<i @click="goBack()" class="fas fa-chevron-circle-left" id="back"></i>
-		<div class="menu">
-			<Canvas :table="table" :cpt="cpt"/>
-			<Sectionlist :table="table" :cpt="cpt"/>
-		</div>
-		<i @click="goNext()" class="fas fa-chevron-circle-right " id="next"></i>
-    </main>
-	<ul>
-		<li v-for="ligne in tableFilter" :key="ligne.id">
-			<div class="color-bg" :style="'background-color:'+ligne.couleur"></div>{{ " "+ligne.pays }}
-		</li>
-	</ul>
-	<section>
-		<p>La collection de livres <strong>Les génies des mathématiques</strong> a été publiée entre 2018 et 2019 par « Le Monde », en collaboration avec « L’Obs ». Elle propose la biographie de soixante mathématiciens (dont trois femmes) de l'antiquité jusqu'au XXème siecle. Une façon différnte de raconter les mathématiques où le contexte historique permet de mieux comprendre les travaux de recherches du mathématicien. Un format agréable dont les livres font environ 150 pages rend la lecture accessible à nimporte quel amateur d'histoire et de mathématiques.<br/><br/>La frise chronologique représente les soixante mathématiciens abordés dans la collection au cours du temps. Vous pouvez cliquer sur un  nom pour voir sa fiche récapitulative. <span class="italique">En savoir plus</span> vous amène sur une page avec la couverture du livre et son résumé.</p>
-	</section>
+		<h1>Les Génies des Mathématiques</h1>
+		<section class="container">
+			<div class="icon">
+				<i @click="goBack()" class="fas fa-chevron-circle-left" id="back"></i>
+			</div>
+			<div class="menu">
+				<Canvas :table="table" :cpt="cpt"/>
+				<Sectionlist :table="table" :cpt="cpt"/>
+			</div>
+			<div class="icon">
+				<i @click="goNext()" class="fas fa-chevron-circle-right" id="next"></i>
+			</div>
+		</section>
+
+		<ul class="legend">
+			<li v-for="ligne in tableFilter" :key="ligne.id">
+				<div class="bg-color" :style="'background-color:'+ligne.couleur"></div>{{ " "+ligne.pays }}
+			</li>
+		</ul>
+
+		<p class="description">La collection de livres <strong>Les génies des mathématiques</strong> a été publiée entre 2018 et 2019 par « Le Monde », en collaboration avec « L’Obs ». Elle propose la biographie de soixante mathématiciens (dont trois femmes) de l'antiquité jusqu'au XXème siecle. Une façon différnte de raconter les mathématiques où le contexte historique permet de mieux comprendre les travaux de recherches du mathématicien. Un format agréable dont les livres font environ 150 pages rend la lecture accessible à nimporte quel amateur d'histoire et de mathématiques.<br/><br/>La frise chronologique représente les soixante mathématiciens abordés dans la collection au cours du temps. Vous pouvez cliquer sur un  nom pour voir sa fiche récapitulative. <span class="italique">En savoir plus</span> vous amène sur une page avec la couverture du livre et son résumé.</p>
+	</main>
 </template>
 
 <script>
@@ -77,45 +84,56 @@ export default {
 </script>
 
 <style scoped>
-	main{
-		height: 125px;
-		width: 1100px;
-		margin: 5rem auto 0 auto;
+	main {
 		display: flex;
-		justify-content: space-between;
+		padding: 1.5rem 2rem;
+		flex-direction: column;
+		align-items: center;
+		row-gap: 3rem;
+	}
+	.container{
+		height: 125px;
+		display: flex;
+	}
+	.icon {
+		display: flex;
+		align-items: center;
+		font-size: 30px;
 	}
 	#back{
-		font-size: 2.2rem;
 		color: #EBECF0;
-		cursor: auto;
+		cursor: default;
 	}
 	#next{
-		font-size: 2.2rem;
 		color: black;
 		cursor: pointer;
 	}
-
-	ul{
+	.menu {
+		display: flex;
+		flex-direction: column;
+		justify-content: end;
+	}
+	.legend{
 		width: 300px;
-		margin-left: 12rem;
 		padding: .5rem 1rem;
+		align-self: flex-start;
 		-webkit-column-count: 2;  /* Chrome/Opera, Safari */
 		-moz-column-count: 2; /* Mozilla Firefox */
 		column-count: 2;
 		list-style-type: none;
-		border: 2px solid black;
+		border: 1px solid black;
 	}
-	.color-bg{
+	.bg-color{
 		height: 20px;
 		width: 25px;
 		margin: 4px 4px 0 0;
 		display: inline-block;
 	}
 
-	section{
+	.description{
 		width: 550px;
-		margin: 0 auto;
-		padding-top: 0.5rem;
+		/* margin: 0 auto; */
+		/* padding-top: 0.5rem; */
 		text-align: justify;
 		box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 	}

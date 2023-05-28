@@ -1,6 +1,4 @@
-section{
-    height: 50px;
-    width:1100px;
+.timeline{
     display: flex;
 }
 .impaire{

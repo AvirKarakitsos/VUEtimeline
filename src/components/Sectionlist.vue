@@ -1,5 +1,5 @@
 <template>
-    <section v-if="cpt>=1">
+    <section class="timeline" v-if="cpt>=1">
         <div v-for="ligne in table.filter(val => (val.date>date_inf(cpt))&&(val.date<date_sup(cpt)))" :key="ligne.id">
             
             <div @click="afficher(ligne.id)" 
@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <section v-else-if="cpt==0">
+    <section class="timeline" v-else-if="cpt==0">
         <div v-for="ligne in table.filter(val => val.id <= 10)" :key="ligne.id">
             
             <div @click="afficher(ligne.id)" 
