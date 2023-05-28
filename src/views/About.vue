@@ -3,7 +3,7 @@
         <img :src="getImgUrl(ligne.nom)" alt="">
         <div>
             <p>{{ligne.content}}</p><br/>
-            <router-link :to="{name:'Home'}">Page d'accueil</router-link>
+            <a @click="homeLink()" href="#">Page d'accueil</a>
         </div>
 	</section>
 </template>
@@ -12,11 +12,14 @@
 export default {
     props:['nom','table'],
     methods:{
-          getImgUrl(input) {
+        getImgUrl(input) {
             let val = input.toLowerCase()
             let images = require.context('../assets/images/collection/', false,/\.jpg$/)
             return images( './'+val + ".jpg")
         },
+        homeLink(){
+            window.location.pathname = ""
+        }
     }
 }
 </script>
