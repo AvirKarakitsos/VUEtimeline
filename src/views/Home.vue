@@ -98,7 +98,7 @@ export default {
 <style scoped>
 	main {
 		display: flex;
-		padding: 1.5rem 2rem;
+		padding: 1.5rem 6rem;
 		flex-direction: column;
 		align-items: center;
 		row-gap: 3rem;
